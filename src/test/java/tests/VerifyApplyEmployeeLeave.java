@@ -27,6 +27,8 @@ public class VerifyApplyEmployeeLeave extends Base {
         String actualValue = getText(EmployeeHomePage.employeeLeaveStatus);
 
         Assert.assertEquals(actualValue,"Leave Satus");
+
+       System.out.println("save the world ######################################");
     }
 
 
